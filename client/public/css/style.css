@@ -1,0 +1,78 @@
+/* styles for the navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* styles for the landing section */
+  .landing {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-inner {
+    text-align: center;
+  }
+  
+  .landing h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .buttons a {
+    margin-bottom: 10px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .buttons a.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .buttons a.btn-light {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ccc;
+  }
